@@ -26,14 +26,6 @@
 - [UCB DeFi MOOC Intro to Blockchain](https://www.youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31)
 - [UCB DeFi MOOC Intro to Smart Contracts](https://www.youtube.com/playlist?list=PLS01nW3RtgopgX7C17qwyCOS0pNsKayEE)
 - [CryptoZombies Tuto](https://cryptozombies.io)
-- [Solidity By Example](https://solidity-by-example.org) - You can go over the following topics:
-    - [Primitive Data Types](https://solidity-by-example.org/primitives/)
-    - [Mappings](https://solidity-by-example.org/mapping/)
-    - [Structs](https://solidity-by-example.org/structs/)
-    - [Modifiers](https://solidity-by-example.org/function-modifier/)
-    - [Events](https://solidity-by-example.org/events/)
-    - [Inheritance](https://solidity-by-example.org/inheritance/)
-    - [Payable](https://solidity-by-example.org/payable/)
-    - [Fallback](https://solidity-by-example.org/fallback/)
+- [Solidity By Example](https://solidity-by-example.org)
 
 
