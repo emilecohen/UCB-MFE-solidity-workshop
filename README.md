@@ -1,6 +1,10 @@
 # UCB-MFE-solidity-workshop
 
-# To prepare before the workshop
+## Workshop Schedule
+| Day      | Date       | Time       | Lecturer | Topics            | 
+| -------- | ---------- | ---------- | ----- | -------------------- |
+| Thursday   | 14/04/2022  | 6pm - 8pm | Emile | [Basics](Part_1) |
+| Thursday   | 21/04/2022  | 6pm - 8pm | Emile | [DeFi](Part_2) |
 
 ## Prerequisites
 
@@ -8,6 +12,8 @@
  You need to install the following:
 - [Git](https://git-scm.com/downloads)
 - [Node (v16 LTS)](https://nodejs.org/en/download/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+- [VSCode](https://code.visualstudio.com/download)
 
 ### Wallet
 - Create a Metamask Wallet (https://metamask.io)
@@ -17,6 +23,9 @@
 ## Solidity Basics
 
 - [Solidity Doc](https://docs.soliditylang.org)
+- [UCB DeFi MOOC Intro to Blockchain](https://www.youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31)
+- [UCB DeFi MOOC Intro to Smart Contracts](https://www.youtube.com/playlist?list=PLS01nW3RtgopgX7C17qwyCOS0pNsKayEE)
+- [CryptoZombies Tuto](https://cryptozombies.io)
 - [Solidity By Example](https://solidity-by-example.org) - You can go over the following topics:
     - [Primitive Data Types](https://solidity-by-example.org/primitives/)
     - [Mappings](https://solidity-by-example.org/mapping/)
@@ -26,10 +35,5 @@
     - [Inheritance](https://solidity-by-example.org/inheritance/)
     - [Payable](https://solidity-by-example.org/payable/)
     - [Fallback](https://solidity-by-example.org/fallback/)
-- [UCB DeFi MOOC Intro to Smart Contracts](https://www.youtube.com/playlist?list=PLS01nW3RtgopgX7C17qwyCOS0pNsKayEE)
-- [CryptoZombies Tuto](https://cryptozombies.io)
-
-
-## To go further
 
 
