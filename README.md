@@ -26,6 +26,4 @@
 - [UCB DeFi MOOC Intro to Blockchain](https://www.youtube.com/playlist?list=PLS01nW3RtgopFiRQiM-onPH38S0D2DU31)
 - [UCB DeFi MOOC Intro to Smart Contracts](https://www.youtube.com/playlist?list=PLS01nW3RtgopgX7C17qwyCOS0pNsKayEE)
 - [CryptoZombies Tuto](https://cryptozombies.io)
-- [Solidity By Example](https://solidity-by-example.org)
-
-
+- [Ethereum White Paper](https://ethereum.org/en/whitepaper/)
