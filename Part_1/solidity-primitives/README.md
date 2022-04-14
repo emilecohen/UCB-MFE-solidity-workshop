@@ -11,6 +11,26 @@ Introduction of some primitive data types available in Solidity:
 - int
 - address
 
+## Visibility
+
+Functions and state variables have to declare whether they are accessible by other contracts.
+
+Functions can be declared as:
+- ```public``` - any contract and account can call
+- ```private``` - only inside the contract that defines the function
+- ```internal```- only inside contract that inherits an internal function
+- ```external``` - only other contracts and accounts can call
+
+State variables can be declared as ```public```, ```private```, or ```internal``` but not ```external```.
+
+## View and Pure functions
+
+Getter functions can be declared ```view``` or ```pure```.
+
+```View``` function declares that no state will be changed.
+
+```Pure``` function declares that no state variable will be changed or read.
+
 ## Gas
 
 ### How much ether do you need to pay for a transaction?
@@ -81,3 +101,4 @@ You have to list the parent contracts in the order from “most base-like” to 
 ## Payable
 
 Functions and addresses declared payable can receive ether into the contract.
+

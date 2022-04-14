@@ -17,7 +17,9 @@
 
 ### Wallet
 - Create a Metamask Wallet (https://metamask.io)
+- Show Testnets in Metamask (Metamask > Settings > Advanced > Show test networks: On)
 - Request ETH from the Rinkeby testnet faucet (https://rinkebyfaucet.com/)
+- Switch network and verify that you received testnet ETH
 
 
 ## Solidity Basics
