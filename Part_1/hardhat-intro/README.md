@@ -47,12 +47,12 @@ To create a new API KEY, you can follow the following [tutorial](https://docs.al
 
 **Debug**
 - Check Compilation
-```npx hadhat compile```
+```npx hardhat compile```
 
 - Localnet: you can deploy your code on a a local network with predefined addresses to test smart contract methods quicker.
 ```npx hardhat node```
 
-- .log(): hardhat offers the possibility to log variables directly from Solidity code. 
+- ```.log()```: hardhat offers the possibility to log variables directly from Solidity code. 
 
 - Deploy to localnet
 ```npx hardhat run ./scripts/sample-script.js --network localhost```
@@ -60,6 +60,7 @@ To create a new API KEY, you can follow the following [tutorial](https://docs.al
 
 
 **Test**
+
 Once deployed, code is immutable, and user's money is at stake: planning all edge cases through thorough testing is primordial.
 
 Hardhat combined with [Chai](https://www.chaijs.com) and [ethers.js](https://docs.ethers.io/v5/) is powerful to test all possible:
@@ -71,11 +72,11 @@ Run test: ```npx hardhat test```
 
 
 
-### Deploy to testnet with Hadhat
+### Deploy to testnet with Hardhat
 
 When deploying to testnet or mainnent, you will need:
 - Connect to a node (Alchemy)
-- Use your private key to sign transactions and pay gas (you need ETH to deploy)
+- Use your private key to sign transactions and pay gas (you need ETH to deploy on Ethereum and derived testnets)
 
 Deploy contract: ```npx hardhat run ./scripts/sample-script.js --network <network>```
 
