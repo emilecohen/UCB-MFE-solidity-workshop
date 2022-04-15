@@ -22,7 +22,7 @@ ERC-20 was initially proposed in 2015 and provides the following functionalities
 - get the total supply of the token available on the network
 - approve whether an amount of token from an account can be spent by a third-party account
 
-It materializes by a set of functions and events that will be shared byall ERC-20 contracts:
+It materializes by a set of functions and events that will be shared by all ERC-20 contracts:
 
 **Methods**
 ```solidity
@@ -57,7 +57,7 @@ npm install --save-dev @nomiclabs/hardhat-ethers ethers # peer dependencies
 ```
 
 
-## Test, Deployment and Contract Interaction
+## Testing, Deployment and Contract Interaction
 
 Have a look at ```./contracts/erc20.sol```.
 The contract inherits from ERC20 implementation of OpenZeppelin and simply adds an owner. We can add other funtionalities, such as whitelist, upgradeability ... thanks to OpenZeppelin library.
