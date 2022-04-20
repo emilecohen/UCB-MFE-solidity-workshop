@@ -21,6 +21,10 @@ Contract: https://etherscan.io/address/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13
 
 Contract: https://etherscan.io/address/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb#code
 
+### Unique Piece
+- The First 5000 Days is another one of Beeples high grossing NFT projects. It is a collage of 5000 individual NFTs that Beeples created for his Everyday’s series. It sold for an astonishing $69 million (42.329 ETH) in 2021 at the [Christies Auction house](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924). This is the most expensive NFT ever to be sold to an individual investor.
+
+
 
 ## Major Marketplaces
 - [Opensea](https://opensea.io)
@@ -29,8 +33,6 @@ Contract: https://etherscan.io/address/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bb
 
 Interesting read on LooksRare vampire attack on Opensea [here](https://blog.coinbase.com/vampire-attack-looksrare-vs-opensea-c3b4107cd4db)
 
-### Unique Piece
-- The First 5000 Days is another one of Beeples high grossing NFT projects. It is a collage of 5000 individual NFTs that Beeples created for his Everyday’s series. It sold for an astonishing $69 million (42.329 ETH) in 2021 at the [Christies Auction house](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924). This is the most expensive NFT ever to be sold to an individual investor.
 
 
 Have a a look at [Dune Analytics](https://dune.com/browse/dashboards) for good analytic dashboard about any blockchain topic.
