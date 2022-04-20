@@ -4,7 +4,7 @@
 | Day      | Date       | Time       | Lecturer | Topics            | 
 | -------- | ---------- | ---------- | ----- | -------------------- |
 | Thursday   | 14/04/2022  | 6pm - 8pm | Emile | [Basics](Part_1) |
-| Thursday   | 21/04/2022  | 6pm - 8pm | Emile | [DeFi](Part_2) |
+| Thursday   | 21/04/2022  | 6pm - 8pm | Emile | [Part 2](Part_2) |
 
 ## Prerequisites
 
