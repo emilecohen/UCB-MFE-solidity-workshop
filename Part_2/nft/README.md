@@ -6,11 +6,11 @@ Non-fungible tokens (NFTs) are cryptographic assets on a blockchain with unique 
 
 From [Forbes](https://www.forbes.com/advisor/investing/cryptocurrency/nft-non-fungible-token/):
 - NFTs are also generally one of a kind, or at least one of a very limited run, and have unique identifying codes. 
-- “Essentially, NFTs create digital scarcity,”
+- “Essentially, NFTs create digital scarcity”
 - This stands in stark contrast to most digital creations, which are almost always infinite in supply. Hypothetically, cutting off the supply should raise the value of a given asset, assuming it’s in demand.
 - $174 million has been spent on NFTs since November 2017.
 
-## Major projects to date
+## Some big projects
 
 ### PFPs (Profile Pictures)
 - [Bored Ape Yacht Club (BAYC)](https://boredapeyachtclub.com/#/) --> more than $1.8B of volume to date 
@@ -21,9 +21,12 @@ Contract: https://etherscan.io/address/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13
 
 Contract: https://etherscan.io/address/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb#code
 
+
 ### Unique Piece
 - The First 5000 Days is another one of Beeples high grossing NFT projects. It is a collage of 5000 individual NFTs that Beeples created for his Everyday’s series. It sold for an astonishing $69 million (42.329 ETH) in 2021 at the [Christies Auction house](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924). This is the most expensive NFT ever to be sold to an individual investor.
 
+
+Have a a look at [Dune Analytics](https://dune.com/browse/dashboards) for good analytic dashboard about any blockchain topic.
 
 
 ## Major Marketplaces
@@ -33,9 +36,6 @@ Contract: https://etherscan.io/address/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bb
 
 Interesting read on LooksRare vampire attack on Opensea [here](https://blog.coinbase.com/vampire-attack-looksrare-vs-opensea-c3b4107cd4db)
 
-
-
-Have a a look at [Dune Analytics](https://dune.com/browse/dashboards) for good analytic dashboard about any blockchain topic.
 
 ## Metadata
 
@@ -53,6 +53,41 @@ IPFS provides a way to ensure immutability of the metadata. [Pinata](https://doc
 
 Metadata example:
 - [Bored Apes #6476](https://cloudflare-ipfs.com/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476)
+
 ## Deployment
 
-## NFT Drop
+Follow the steps of [hardhat-intro](../../Part_1/hardhat-intro/) on basic deployment and apply them in the [code](../code/) folder.
+
+
+## Additional content
+
+### ERC-1155 implementation
+
+ERC-1155 is a standard interface for contracts that manage multiple token types. A single deployed contract may include any combination of fungible tokens, non-fungible tokens or other configurations (e.g. semi-fungible tokens). It is called a semi-fungible token.
+
+- [ERC-1155 Proposal](https://eips.ethereum.org/EIPS/eip-1155)
+- [Most gas-efficient NFT with ERC-1155](https://medium.com/donkeverse/introducing-erc1155d-the-most-efficient-non-fungible-token-contract-in-existence-c1d0a62e30f1)
+
+### Pre Sale Allow List
+
+- Implementing a PreSale AllowList: choose between mapping, signature or merkle root method (see [here](https://medium.com/donkeverse/hardcore-gas-savings-in-nft-minting-part-2-signatures-vs-merkle-trees-917c43c59b07))
+
+[TIPS] We will need to use the gas reporter from Hardhat to compare those:
+- ```npm install hardhat-gas-reporter --save-dev```
+- in hardhat.config.js, ```require("hardhat-gas-reporter");```
+- in ```.env```, add ```REPORT_GAS=true```
+
+This will generate a gas report everytime we are testing a solidity file.
+
+
+### MarketPlace tutorial
+
+As for ERC-20, the ERC-721 / ERC-1155 does not include anything for selling / buying those assets. You would need transactional smart contracts like Opensea ones. One good tutorial can be found [here](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb)
+
+### Fractionalization and bridge to DeFi
+
+Entry point for most NFTs is way higher than the average portfolio size. This creates a chain of problems including limited price discovery and illiquidity. Thus, one hot topic around NFTs is **fractionalization**. This brings NFT world and DeFi world together: you will be able to create NFT Indexes, lend your NFTS, swap on AMMs, even create NFT derivatives ...
+
+Two promising projects are:
+- [Fractional Art](https://fractional.art/)
+- [Bridgesplit](https://docs.bridgesplit.com/main/) on Solana
