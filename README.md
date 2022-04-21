@@ -5,6 +5,7 @@
 | -------- | ---------- | ---------- | ----- | -------------------- |
 | Thursday   | 14/04/2022  | 6pm - 8pm | Emile | [Part 1](Part_1) |
 | Thursday   | 21/04/2022  | 6pm - 8pm | Emile | [Part 2](Part_2) |
+| Not scheduled   | -- | -- | Emile | [DeFi](Part_3) |
 
 ## Prerequisites
 
