@@ -45,10 +45,7 @@ Metadata gathers:
 - Image / Video / Music that can be displayed on NFT marketplaces
 
 This metadata is usually stored:
-- On [IPFS](https://docs.ipfs.io/concepts/what-is-ipfs/#decentralization) (Interplanetary File System): peer-to-peer protocol for saving multimedia files
-
-IPFS provides a way to ensure immutability of the metadata. [Pinata](https://docs.pinata.cloud) is a pinning service widely used to store and pin (make sure data does not get deleted on IPFS nodes) data to IPFS.
-
+- On [IPFS](https://docs.ipfs.io/concepts/what-is-ipfs/#decentralization) (Interplanetary File System): peer-to-peer protocol for saving multimedia files. IPFS provides a way to ensure immutability of the metadata. [Pinata](https://docs.pinata.cloud) is a pinning service widely used to store and pin (make sure data does not get deleted on IPFS nodes) data to IPFS.
 - On a private server (metadata can here be manipulated without any further mechanism)
 
 Metadata example:
