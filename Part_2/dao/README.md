@@ -63,4 +63,6 @@ DAO have spread and specialized to different use cases. Some important projects 
  
 
  ## Build your own DAO
+ 
+ See [code_dao section](../code_dao)
 
