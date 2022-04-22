@@ -1,4 +1,6 @@
-DISCLAIMER: 
+# Deploy your own governance protocol
+
+**DISCLAIMER** 
 
 This tutorial is directly inspired from [Tallly Tutorial](https://github.com/withtally/Tutorial-Deploy-Governance). Please give them a star and check their [product](https://withtally.com/). Tally is the premier place to interact with Governance on the Ethereum blockchain. We make tools to make governance easier, bring greater community involvement and enhanced transparency for decentralized protocols.
 
