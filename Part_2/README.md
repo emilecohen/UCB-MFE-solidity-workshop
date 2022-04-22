@@ -1,5 +1,5 @@
 # Part 2
 
-## Non Fungible Tokens
+## [Non Fungible Tokens](./nft.md)
 
-## Decentralized Autonomous Organizations
+## [Decentralized Autonomous Organizations](./dao.md)
