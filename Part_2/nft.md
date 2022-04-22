@@ -1,4 +1,4 @@
-# Non Fungible Tokens (ERC-721 / ERC-1555)
+# Non Fungible Tokens (ERC-721 / ERC-1155)
 
 Non-fungible tokens (NFTs) are cryptographic assets on a blockchain with unique identification (ERC-721) - or in low supply (ERC-1155) -  codes and metadata that distinguish them from each other. Unlike cryptocurrencies, they cannot be traded or exchanged at equivalency. This differs from fungible tokens like cryptocurrencies, which are identical to each other and, therefore, can serve as a medium for commercial transactions.
 
