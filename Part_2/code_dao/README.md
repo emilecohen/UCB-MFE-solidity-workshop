@@ -604,7 +604,3 @@ Now to deploy you need only one private key in your `module.exports` in the `har
 To deploy: 
 
 `npx hardhat Deploy --token 0xAddressToReceivetokens --timelock 0xAddressTimeLockAdmin --guardian 0xAddressGovernorAlphaAdmin --network rinkeby`
-
-You can see the final code here: 
-
-[https://github.com/withtally/Tutorial-Deploy-Governance](https://github.com/withtally/Tutorial-Deploy-Governance)
