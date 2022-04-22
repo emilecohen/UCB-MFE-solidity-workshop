@@ -53,7 +53,7 @@ Metadata example:
 
 ## Deployment
 
-Follow the steps of [hardhat-intro](../../Part_1/hardhat-intro/) on basic deployment and apply them in the [code](../code/) folder.
+Follow the steps of [hardhat-intro](../../Part_1/hardhat-intro/) on basic deployment and apply them in the [code_nft](../code_nft/) folder.
 
 
 ## Additional content
