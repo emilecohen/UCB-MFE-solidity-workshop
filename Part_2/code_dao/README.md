@@ -2,7 +2,7 @@
 
 **DISCLAIMER** 
 
-This tutorial is directly inspired from [Tallly Tutorial](https://github.com/withtally/Tutorial-Deploy-Governance). Please give them a star and check their [product](https://withtally.com/). Tally is the premier place to interact with Governance on the Ethereum blockchain. We make tools to make governance easier, bring greater community involvement and enhanced transparency for decentralized protocols.
+This tutorial is directly inspired from [Tally Tutorial](https://github.com/withtally/Tutorial-Deploy-Governance). Please give them a star and check their [product](https://withtally.com/). Tally is the premier place to interact with Governance on the Ethereum blockchain. We make tools to make governance easier, bring greater community involvement and enhanced transparency for decentralized protocols.
 
 If you would like to have your Compound-Style governance indexed by [Tally](http://www.withTally.com) indexers and added to the website, please [contact us](//dennison@withTally.com).
 
